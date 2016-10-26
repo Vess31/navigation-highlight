@@ -46,6 +46,10 @@ h2 {
 nav .current {
   background-color: #b20953;
 }
+
+img {
+  width: 100%;
+}
 footer{
   background-color: #ffe500;
   text-align: center;
