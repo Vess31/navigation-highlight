@@ -1,5 +1,6 @@
 html {
   font-family:"Georgia" ,serif;
+  box-sizing: 1.875rem;
 }
 header {
   background-color: #ffe500;
@@ -41,6 +42,9 @@ h2 {
 }
 .nav a:hover {
   background-color: #2f2d13;
+}
+.nav a:active{
+  background-color: #b20953;
 }
 footer{
   background-color: #ffe500;
