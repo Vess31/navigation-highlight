@@ -1,6 +1,13 @@
 html {
   font-family:"Georgia" ,serif;
-  box-sizing:1.5 ;
+  box-sizing:inherit;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 header {
   background-color: #ffe500;
