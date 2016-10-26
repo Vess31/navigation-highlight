@@ -9,7 +9,7 @@ html {
 
 header {
   background-color: #ffe500;
-  padding: 1em;
+  padding: 10px;
 }
 
 body {
@@ -21,13 +21,15 @@ h1 {
   text-align: center;
   color: #cc1465;
   font-family: "Sigmar One", cursive;
-  font-size: 3rem
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 h2 {
   font-family: "Sigmar One", cursive;
   color: #cc1465;
   margin: .3em;
+  font-size: 1.875rem;
 }
 
 .nav {
@@ -35,6 +37,7 @@ h2 {
   list-style-type: none;
   text-align: center;
   padding: 0;
+  line-height: 1.5;
 }
 
 .nav li {
@@ -62,9 +65,16 @@ img {
   width: 100%;
   display: block;
   margin: .3em;
+  padding: 0 10px;
+}
+
+p {
+  line-height: 1.5;;
 }
 
 footer {
   background-color: #ffe500;
   text-align: center;
+  padding: 10px;
+  font-size: .75rem;
 }
